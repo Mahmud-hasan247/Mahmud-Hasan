@@ -4,7 +4,7 @@ import Contact from '../Contact/Contact';
 
 const ContactPage = () => {
     return (
-        <div>
+        <div className="pages-bg">
             <Navbar/>
             <Contact/>
         </div>

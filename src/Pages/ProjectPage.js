@@ -5,13 +5,15 @@ import Projects from '../Components/Projects/Projects';
 const ProjectPage = () => {
     return (
         <>
-            <div className="container">
+           <div className="pages-bg">
+           <div className="container">
                 <Navbar />
 
             </div>
             <div>
                 <Projects />
             </div>
+           </div>
         </>
     );
 };

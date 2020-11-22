@@ -6,7 +6,7 @@ import './HomePage.css';
 
 const HomePage = () => {
     return (
-        <div id="background">
+        <div className="pages-bg">
             <div className='container' id="transparent">
                 <Navbar/>
                 <Home />

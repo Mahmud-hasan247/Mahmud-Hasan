@@ -1,7 +1,8 @@
-#background{
+.pages-bg{
     /* background-image: url('../Images/bg.jpg'); */
     min-height: 100vh;
     color:white;
+    background-color: #282c34;
     
 }
 #transparent{

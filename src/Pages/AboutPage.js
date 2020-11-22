@@ -4,9 +4,11 @@ import Navbar from '../Components/Navbar/Navbar';
 
 const AboutPage = () => {
     return (
-        <div className="container">
+        <div className="pages-bg">
+            <div className="container">
             <Navbar/>
             <About/>
+        </div>
         </div>
     );
 };

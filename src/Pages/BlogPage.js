@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar/Navbar';
 
 const BlogPage = () => {
     return (
-        <div>
+        <div className="pages-bg">
             <Navbar/>
             <Blog/>
         </div>

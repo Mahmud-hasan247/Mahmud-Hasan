@@ -10,15 +10,12 @@ import {
 import AboutPage from './Pages/AboutPage';
 import BlogPage from './Pages/BlogPage';
 import ContactPage from './Pages/ContactPage';
-import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <>
-      <div className="App-header">
-        
+      <div>
         <Router>
-          {/* <Navbar/> */}
           <Switch>
             <Route exact path="/">
               <HomePage/>
