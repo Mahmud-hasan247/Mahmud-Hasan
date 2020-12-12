@@ -36,7 +36,7 @@ const Contact = () => {
                         </div>
                         <div class="form-group">
                             <label className='ml-1' for="exampleInputPassword1">Message</label>
-                            <input style={{height:'100px', paddingBottom: '60px'}} type="textBox" name='message' className="form-control" id="exampleInputEmail1" />
+                            <input style={{height:'100px', paddingBottom: '60px'}}  name='message' className="form-control" id="exampleInputEmail1" />
                         </div>
                         <input type="submit" className="btn btn-primary" value="Send" />
                     </form>

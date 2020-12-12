@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
+import Project2 from '../Components/Projects/Project2';
 import Projects from '../Components/Projects/Projects';
 
 const ProjectPage = () => {
@@ -11,7 +12,8 @@ const ProjectPage = () => {
 
             </div>
             <div>
-                <Projects />
+                {/* <Projects /> */}
+                <Project2></Project2>
             </div>
            </div>
         </>

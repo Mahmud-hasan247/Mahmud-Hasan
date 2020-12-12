@@ -1,9 +1,9 @@
 import React from 'react';
 import './Projects.css';
-import image1 from '../../Images/creative-agency.PNG';
-import image2 from '../../Images/Volunteer-Network.PNG';
-import image3 from '../../Images/Travel-guru.PNG';
-import image4 from '../../Images/E-school.PNG';
+// import image1 from '../../Images/creative-agency.PNG';
+// import image2 from '../../Images/Volunteer-Network.PNG';
+// import image3 from '../../Images/Travel-guru.PNG';
+// import image4 from '../../Images/E-school.PNG';
 
 const Projects = () => {
     return (
@@ -16,9 +16,9 @@ const Projects = () => {
                             <div className="box">
                                 <div className="profile-box">
                                     <div className="img-area">
-                                        <img className='project-img' src={image1} alt="" />
+                                        {/* <img className='project-img' src={image1} alt="" /> */}
                                     </div>
-                                    <div className="img-text">
+                                    {/* <div className="img-text">
                                         <h1>Creative Agency</h1>
                                         <h2>A full stack and responsive service seller web application</h2>
                                         <div className="d-flex">
@@ -43,7 +43,7 @@ const Projects = () => {
                                             <button className='btn mr-3 btn-success'><a href="https://creative-agency-391a7.web.app/" target="_blank">Visit website</a></button>
                                             <button className='btn ml-5  btn-primary'><a href="https://github.com/Mahmud-hasan247/travel-guru" target="_blank">View code</a></button>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                             <div className="box">
                                 <div className="profile-box">
                                     <div className="img-area">
-                                        <img className='project-img' src={image2} alt="" />
+                                        {/* <img className='project-img' src={image2} alt="" /> */}
                                     </div>
                                     <div className="img-text">
                                         <h1>Volunteer Network</h1>
@@ -81,7 +81,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ marginTop: '320px', marginBottom: '20px' }} className="col-md-6">
+                        {/* <div style={{ marginTop: '320px', marginBottom: '20px' }} className="col-md-6">
                             <div className="box">
                                 <div className="profile-box">
                                     <div className="img-area">
@@ -132,7 +132,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
