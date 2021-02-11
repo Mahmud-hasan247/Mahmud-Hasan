@@ -27,13 +27,15 @@ const Project2 = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
-                                <img className="card-img-top" src={image1} alt="Card image cap" />
+                                <img className="card-img-top portfolio-img" src={image1} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Creative Agency</h3>
-                                    <h5>A full stack and responsive service seller web
-application with admin panel</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Creative Agency</h4>
+                                    <h6>A full stack and responsive service seller web
+application with admin panel</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://creative-agency-391a7.web.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -41,12 +43,16 @@ application with admin panel</h5>
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
-                                <img className="card-img-top" src={image2} alt="Card image cap" />
+                                <div className="image-box">
+                                <img className="card-img-top portfolio-img" src={image2} alt="Card image cap" />
+                                </div>
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Volunteer Network</h3>
-                                    <h5>A full stack social event management web application.</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Volunteer Network</h4>
+                                    <h6>A full stack social event management web application.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://volunteer-network-a05f8.web.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                             <small className="text-muted">Last updated 3 mins ago</small>
                         </div> */}
@@ -55,12 +61,14 @@ application with admin panel</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image3} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Apartment Hunt</h3>
-                                    <h5>A full-stack Apartment rent booking
-web application (Team project)</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Apartment Hunt</h4>
+                                    <h6>A full-stack Apartment rent booking
+web application (Team project)</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://apartment-hunt-main.web.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -69,11 +77,13 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image14} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Ema-John</h3>
-                                    <h5>A full stack e-commerce website with firebase authentication.</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Ema-John</h4>
+                                    <h6>A full stack e-commerce website with firebase authentication.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://ema-john-5721b.web.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -82,11 +92,14 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image4} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Travel Guru</h3>
-                                    <h5>A Travel management web application.</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Travel Guru</h4>
+                                    <h6>A Travel management web application.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://angry-allen-78e7c5.netlify.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
+
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -95,11 +108,13 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image5} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Athena Design</h3>
-                                    <h5>A Responsive Landing Page Design (Team project)</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Athena Design</h4>
+                                    <h6>A Responsive Landing Page Design (Team project)</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://team-project-athena.web.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                             <small className="text-muted">Last updated 3 mins ago</small>
                         </div> */}
@@ -108,11 +123,13 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image11} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Super Store</h3>
-                                    <h5>A full stack e-commerce website with shopping cart by Vue.js</h5> 
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Super Store</h4>
+                                    <h6>A full stack e-commerce website with shopping cart by Vue.js</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://pedantic-einstein-47c235.netlify.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -121,11 +138,13 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image6} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">E-school</h3>
-                                    <h5>A responsive landing page for e-school</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">E-school</h4>
+                                    <h6>A responsive landing page for e-school</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://mahmud-hasan247.github.io/E-school/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -135,10 +154,10 @@ web application (Team project)</h5>
                             <div className="card">
                                 <img className="card-img-top" src={image7} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h3 className="card-title">Hard Rock</h3>
-                                    <h5>A website for lyrics searching from API</h5> 
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Hard Rock</h4>
+                                    <h6>A website for lyrics searching from API</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://mahmud-hasan247.github.io/hard-rock-master/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -148,10 +167,10 @@ web application (Team project)</h5>
                             <div className="card">
                                 <img className="card-img-top" src={image8} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h3 className="card-title">Pin Generator</h3>
-                                    <h5>A pin generator and pin matcher website.</h5> 
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Pin Generator</h4>
+                                    <h6>A pin generator and pin matcher website.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://mahmud-hasan247.github.io/Pin-Matcher/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -160,11 +179,13 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image9} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">My Bank</h3>
-                                    <h5>A simple banking application by vanilla JavaScript.</h5> 
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">My Bank</h4>
+                                    <h6>A simple banking application by vanilla JavaScript.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://mahmud-hasan247.github.io/My-bank/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -173,25 +194,29 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image10} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Panda Commerce</h3>
-                                    <h5>An E-commerce website design.</h5> 
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Panda Commerce</h4>
+                                    <h6>An E-commerce website design.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://mahmud-hasan247.github.io/Panda-commerce/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
                             </div>
                         </div>
-                        
+
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
-                                <img className="card-img-top" src={image12} alt="Card image cap" />
+                                <img className="card-img-top portfolio-img" src={image12} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Social Buddy</h3>
-                                    <h5>Aa API based website with react router.</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Social Buddy</h4>
+                                    <h6>An API based website with react router.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://agitated-shockley-2f6452.netlify.app/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -200,11 +225,13 @@ web application (Team project)</h5>
                         <div className="col-md-6 col-sm-12">
                             <div className="card">
                                 <img className="card-img-top" src={image13} alt="Card image cap" />
+                                <div className="info-card">
                                 <div className="card-body">
-                                    <h3 className="card-title">Shopping Cart</h3>
-                                    <h5>A shopping cart by vanilla JavaScript.</h5>
-                                    </div>
-                                    <p className='ml-5'>Full information is coming soon...</p>
+                                    <h4 className="card-title">Shopping Cart</h4>
+                                    <h6>A shopping cart by vanilla JavaScript.</h6>
+                                </div>
+                                <p className='ml-5'>Full information is coming soon... <a href='https://mahmud-hasan247.github.io/shopping-cart/' target='_blank' className='btn btn-primary ml-5'>Visit This Website</a> </p>
+                                </div>
                                 {/* <div className="card-footer">
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </div> */}
@@ -212,7 +239,7 @@ web application (Team project)</h5>
                         </div>
                     </div>
                 </div>
-                
+
                 {/* <div className="d-flex flex-wrap">
                     <div className="projectBox w-50">
 

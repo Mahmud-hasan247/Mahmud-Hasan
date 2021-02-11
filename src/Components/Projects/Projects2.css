@@ -18,6 +18,23 @@
     margin: 20px 0;
     border: none;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+    /* border-radius: 10px; */
+}
+.info-card{
+    background-color:#181030;
+    color: rgb(245, 244, 244);
+    /* border-radius: 0 0 8px 8px; */
+}
+/* .portfolio-img{
+    width: 95%;
+    margin:auto;
+} */
+.image-box{
+    /* width: 90%; */
+    /* height: 300px; */
+    /* background-color: rgb(174, 227, 236); */
+    /* padding: 10px; */
+    /* border: 1px solid #181030; */
 }
 /* .info-box h1 {
     font-size: 30px;
